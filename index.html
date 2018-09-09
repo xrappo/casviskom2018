@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Test Klick mit Reveal</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/praesitheme.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="plugin/markdown/marked.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+				<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h2 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h2 {
+				color: #222;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Slide 1</h2>
+					<img src="images/gif/offset_prozess_1.jpg" alt="Part 1">
+					
+				<!--<section>
+					<h1>Slide 1</h1>
+				</section>
+					<section>
+						<h1>Hello World</h1>
+					</section>
+					<section>
+					<h1>Who ist the World?</h1>
+					</section>
+
+					<section>
+					<h1>We all</h1>
+					</section>-->
+
+				</section>
+
+				<section>Slide 2
+					<img src="images//gif/offset_prozess_2.jpg" alt="Part 1">
+				</section>
+
+				<section>Slide 3
+					<img src="images/gif/offset_prozess_3.jpg" alt="Part 3">
+
+				</section>
+
+				<section>Slide 4
+					<img src="images/gif/offset_prozess_4.jpg" alt="Part 4">
+				</section>
+
+				<section>Slide 5
+					<img src="images/gif/offset_prozess_5.jpg" alt="Part 5">
+				</section>
+
+				<section>Slide 6
+					<img src="images/gif/offset_prozess_6.jpg" alt="Part 6">
+				</section>
+
+				<section>Slide 7
+					<img src="images/gif/offset_prozess_7.jpg" alt="Part 7">
+				</section>
+
+				<section>Slide 8
+					<img src="images/gif/offset_prozess_8.jpg" alt="Part 8">
+				</section>
+
+				<section>Slide 9
+					<img src="images/gif/offset_prozess_9.jpg" alt="Part 9">
+				</section>
+
+				<section>Slide 10
+					<img src="images/gif/offset_prozess_10.jpg" alt="Part 10">
+				</section>
+
+				<section date-markdown>Slide 11
+					<img src="images/gif/offset_prozess_10.jpg" alt="Part 10">
+				</section>
+				<section>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6Spfq_fcTTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<!-- Zone texte
+				<section data-markdown>
+					<h1>Mark Down</h1>
+					<textarea data-template>
+				
+					</textarea>
+				</section> -->
+
+				<section>Slide 12
+					<div style="width: 100%;"><div style="position: relative; padding-bottom: 62.5%; padding-top: 0; height: 0;"><iframe frameborder="0" width="4000px" height="2500px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5b7bfb88bd67823d2717f1e6" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+				</section>
+
+				<section id="last">    </section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				if (event.currentSlide.id === 'last'){
+            window.location.href = 'index.html';
+        }
+    	} ); 
+		</script>
+	</body>
+</html>
