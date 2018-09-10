@@ -45,7 +45,6 @@ body {
 .reveal h1,
 .reveal h2,
 .reveal h3,
-.reveal h4,
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
@@ -70,7 +69,15 @@ body {
 .reveal h4 {
   font-size: 1em;
   font-family: 'Karla', sans-serif;
-  text-transform: lowercase;}
+  text-transform: lowercase;
+  margin: 0 0 20px 0;
+  color: #eee8d5;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-shadow: none;
+  word-wrap: break-word;
+}
 
 .reveal h1 {
   text-shadow: none; }
