@@ -69,7 +69,8 @@ body {
 
 .reveal h4 {
   font-size: 1em;
-  font-family: 'Karla', sans-serif;}
+  font-family: 'Karla', sans-serif;
+  text-transform: lowercase;}
 
 .reveal h1 {
   text-shadow: none; }
